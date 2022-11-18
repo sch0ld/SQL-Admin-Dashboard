@@ -1,0 +1,211 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Roboto;
+}
+
+.left-row {
+    float: left;
+    /* background-color: rgb(212, 212, 212); */
+    width: 15%;
+    height: 100%;
+    box-shadow: 0.3vh 0vw 1vh rgb(22, 22, 22); 
+    position: fixed;
+}
+
+.left-row .logo {
+    height: 12vh;
+    background-color: rgb(212, 212, 212);
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.left-row .item {
+    margin-left: 1.5vw;
+    margin-top: 4vh;
+    font-size: 1.2vw;
+    font-family: Roboto;
+}
+.left-row .item a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+.left-row .item:hover {
+    margin-left: 1.6vw;
+    font-weight: 200;
+}
+
+
+.current {
+    background-color: rgba(8, 69, 119, 0.247);
+    margin-right: 4vh;
+    border-radius: .2vw;
+}
+
+.current a:only-child {
+    color: rgb(31, 68, 189);
+    padding: 0px 0px 0px 1vw;
+}
+
+.breaker {
+    margin-top: 4vh;
+    width: 100%;
+    height: 0.5vh;
+    background-color: gray;
+}
+
+
+.body-content {
+    width: 90%;
+    margin-left: 15%;
+    height: 100%;
+    /* background-color: rgb(240, 240, 240); */
+}
+
+.top-bar {
+    width: 85%;
+    height: 12vh;
+    margin-left: 15%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0vh 0vw 1vh rgb(22, 22, 22);
+    overflow: hidden; 
+}
+.profile-settings {
+    float: right;
+    /* background-color: rgb(114, 41, 41); */
+    width: 25vw;
+}
+
+.profile-settings h1 {
+    float: right;
+    margin: 2vw;
+    font-size: 2vh;
+}
+
+
+.profile-settings img {
+    width: 10vh;
+    float: right;
+    border-radius: 50%;
+    margin-right: 2.5vw;
+    margin-top: 0.4vw;
+    height: 10vh;
+    object-fit: fill;
+}
+
+._users {
+    
+    margin: 5vh;
+    width: 90%;
+    height: 15vh;
+    /* background-color: rgb(114, 41, 41); */
+}
+
+.quick-stat {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 2.5vh;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    overflow: hidden;
+    border-radius: 1vh;
+    border: .05vw solid black;
+}
+
+.gender_stat {
+    width: 17%;
+}
+.quick-stat h1 {
+    float: right;
+    margin-right: 1vw;
+    margin-top: 8vh;
+    font-size: 5vh;
+}
+
+.squick-stat p {
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+}
+
+
+.quick-stat img {
+    height: 10vh;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    object-fit: contain;
+}
+
+.add-user {
+    background-color: rgb(145, 20, 145);
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 3vw;
+    right: 3vw;
+    border-radius: 100%;
+    
+    font-size: 2vw;
+    line-height: 70px;
+}
+
+.add-user p {
+    position: absolute;
+    text-align: center;
+    bottom: -35px;
+}
+
+.add-user:hover {
+    background-color: rgb(145, 20, 124);
+    animation-name: add-user-Anim;
+    animation-duration: 1s;
+}
+
+@keyframes add-user-Anim {
+    0% {border-radius: 100%}
+    100% {border-radius: 5px;}
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgb(36, 36, 36);
+    text-decoration: underline;
+}
+
+.logout {
+    font-size: .8rem;
+    float: right;
+}
+
+tr:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+#role {
+    float:right;
+    position: absolute;
+    top: 0;
+}

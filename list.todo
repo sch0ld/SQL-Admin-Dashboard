@@ -1,0 +1,20 @@
+- Overall:
+    - Redirect to login page if not logged in @done
+    - Handle errors and not show them (try/catch/finally)
+
+
+- Login system:
+    - Log admins/devs in to adminpage @done
+    - Log users in to index.php
+    - Encrypt password and mail
+
+- Admin Page:
+    - List all users in Users.php @done
+    - Ability to mail directly from the profile page @done
+    - View your own profile @done
+    - View others profiles in profile.php @done
+    - Change others settings as SuperAdmin @done
+
+
+- Dashboard:
+    - Widgets to show percentage @done

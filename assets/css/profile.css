@@ -1,0 +1,32 @@
+.profile {
+    margin-left: 5vw;
+    margin-top: 3vh;
+    width: 50%;
+    height: 100%;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.profile p {
+    font-size: 1rem
+}
+.profile h1{
+    font-size: 1rem
+}
+
+.profile input {
+    display: block;
+    margin-top: 1vh;
+}
+
+input[name=id] {
+    display: none;
+}
+
+input + button {
+    display: block;
+}

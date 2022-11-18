@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    color: white;
+}
+
+
+.upper-50 {
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+.bottom-50 {
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+
+h1 {
+    margin: 0;
+}
