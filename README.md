@@ -24,6 +24,10 @@ A Admin Dashboard System I'm working on in SQL, MariaDB. The goal is to basicall
 - Sign up duh 😒
 - Add users directly without having to verify
 
+## Things I have left out
+
+- Hashing / Salting password
+
 
 ## Authors
 
